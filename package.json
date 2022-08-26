@@ -1,15 +1,15 @@
 {
-    "name": "Templates_plugin",
+    "name": "Templates plugin",
     "description": "Custom templates plugin",
     "version": "1.0.0",
-    "author": "Sujay",
+    "author": "Sujay Dey",
     "repository": "https://github.com/SD-13/monokle-templates-plugin",
     "monoklePlugin": {
-        "modules": [
-            {
-                "type": "template",
-                "path": "basic-pod-template"
-            }
-        ]
+        "id": "com.github.SD-13.plugin.templates",
+        "helpUrl": "https://github.com/SD-13/monokle-templates-plugin",
+        "modules": [{
+            "type": "template",
+            "path": "basic-pod-template"
+        }]
     }
 }   
